@@ -1,41 +1,59 @@
-<!DOCTYPE html>
 <html>
     <head>
-        <title>suguru prathyusha portfolio</title>
+        <title>Suguru Prathyusha portfolio</title> 
         <style>
-            ul {
-                background-color: blueviolet;
-                list-style-type:none;
-                margin:0%;
-                padding:0%;
-                overflow: hidden;
+            body {
+                background-image:url("1.jpg"); 
+                height:auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                text-align: center;                
             }
-            li {
-                display:inline;
-                font-size: 0.75cm;
-                float:left;
-            }
-            li a {
-                display: block;
-                color: ghostwhite;
+            h2 {
                 text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
+                color:brown;
+                top:10%;
+                left:50%;
+                position:absolute;
+                font-size: 5em;
+                transform: translateX(-50%);
+
+                }
+            .tagline {
+                text-align: center;
+                color:rgb(0, 0, 0);
+                top:60%;
+                left:50%;
+                position:absolute;
+                transform: translateX(-50%);
+                display: flex;
+                align-items: flex-start;
+                font-size: 0.5cm;
+
             }
-            li a:hover:not(.active){
-                background-color: mediumpurple;
+            .pic {
+                position:relative;
+                top:70%;
+                height:7em;
+                width:7em;
+                border:5px solid rgb(0, 0, 0);
+                border-radius: 70px;
+                background-color: silver;
             }
-            .active{
-                background-color: mediumslateblue;
-            }
+            .pic:hover {
+             box-shadow: 0 0 5px 2px rgb(58, 50, 50);
+  
+             }
         </style>
     </head>
     <body>
-        <ul>
-            <li><a href="#about">About</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-            <li><a href="#qualifications">Qualifications</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-            <li><a href="#projects">Projects</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+        <h2><strong>SUGURU PRATHYUSHA REDDY</strong></h2>
+        <div class="tagline">An enthusiastic IT aspirant currently pursuing Masters in Sciences from the prestigious IIITH</div>
+        <a href="about.html"><img class="pic" src="2.jpg"></a>&nbsp;
+        <a href="qualifications.html"><img class="pic" src="3.jpg"></a>&nbsp;
+        <a href="projects.html"><img class="pic" src="4.jpg"></a>&nbsp;
+        <a href="contact.html"><img class="pic" src="5.jpg"></a>&nbsp;
+
     </body>
 </html>
