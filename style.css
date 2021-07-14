@@ -1,7 +1,7 @@
 /***Body***/
 body{
     margin:0px 30px 0px 0px;
-    background-image: url("6.png");
+    background-image: url("12.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -12,10 +12,10 @@ ul{
     margin: 0;
     padding: 0;
     width: 15%;
-    background-color:mediumpurple;
     position: fixed;
     height: 100%;
     overflow: auto;
+    background-image: url("6.png");
 }
 li a {
     display: block;
@@ -23,6 +23,7 @@ li a {
     padding: 8px 16px;
     text-decoration: none;
     font-size:large;
+    font-weight:500;
 }
   
 li a.active {
@@ -41,7 +42,6 @@ P{
     font-size: 0.5cm;
     text-align: justify;
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 /***about page***/
@@ -84,3 +84,81 @@ table, th {
     border-radius: 70px;
     background-color: silver;
 }
+.pic:hover {
+    box-shadow: 0 0 5px 2px rgb(58, 50, 50);
+}
+.container2{
+    position:relative;
+    display:inline-block;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 7em;
+    width: 7em;
+    opacity: 0;
+    border:5px solid rgb(55, 181, 219);
+    border-radius: 70px;
+    transition: .5s ease;
+    background-color:honeydew;
+}
+.container2:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color:black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/***Qualifications page***/
+.column-2a {
+    float: left;
+    width: 30%;
+    padding: 40px;
+    padding-left:70px;
+    padding-right: 70px;
+    padding-bottom:60px;
+    height:300px;
+    margin:30px;
+    margin-right:30px;
+    margin-bottom: 40px;
+    background-color:white;
+}
+.table-style{
+    border: black;
+    width: 110%;
+    height: 80%;
+}
+/***project page***/
+.projects{
+    width: 80%;
+}
+/***contact page***/
+.social-image{
+    height: 4rem;
+}
+.social-links {
+    display: flex;
+    justify-content: left;
+    padding: var(--gutter-normal) 0;
+    list-style: none;
+}
+
+.social-link:not(:last-of-type) {
+    margin-right: var(--gutter-small);
+}
+
+.social-image {
+    height: 4rem;
+}
+
