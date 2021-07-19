@@ -141,7 +141,13 @@ table, th {
 }
 /***project page***/
 .projects{
-    width: 80%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-size: 30cm;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
 }
 /***contact page***/
 .social-image{
