@@ -11,10 +11,10 @@
                 background-size: cover;
                 text-align: center;                
             }
-            h2 {
+            h3 {
                 text-align: center;
                 color:brown;
-                top:10%;
+                top:5%;
                 left:50%;
                 position:absolute;
                 font-size: 5em;
@@ -46,10 +46,53 @@
              box-shadow: 0 0 5px 2px rgb(58, 50, 50);
   
              }
+
+             @media only screen and (max-width:500px){
+                body {
+                background-image:url("13.jpg"); 
+                height:auto;
+                background-position: center;
+                background-repeat:repeat-y;
+                background-size: cover;
+                text-align: center;                
+            }
+            h3 {
+                text-align: center;
+                color:brown;
+                top:5%;
+                left:50%;
+                position:absolute;
+                font-size: 3em;
+                transform: translateX(-50%);
+
+                }
+            .tagline {
+                text-align: center;
+                color:rgb(0, 0, 0);
+                top:45%;
+                left:50%;
+                position:absolute;
+                transform: translateX(-50%);
+                display: flex;
+                align-items: flex-start;
+                font-size: 0.4cm;
+
+            }
+            .pic {
+                position:relative;
+                top:60%;
+                height:5em;
+                width:5em;
+                border:5px solid rgb(0, 0, 0);
+                border-radius: 70px;
+                background-color: silver;
+            }
+                 
+            }
         </style>
     </head>
     <body>
-        <h2><strong>SUGURU PRATHYUSHA REDDY</strong></h2>
+        <h3><strong>SUGURU PRATHYUSHA REDDY</strong></h3>
         <div class="tagline">An enthusiastic IT aspirant currently pursuing Masters in Sciences from the prestigious IIITH</div>
         <a href="about.html"><img class="pic" src="2.jpg"></a>&nbsp;
         <a href="qualifications.html"><img class="pic" src="3.jpg"></a>&nbsp;

@@ -9,7 +9,7 @@ body{
 }
 ul{
     list-style-type: none;
-    margin: 0;
+    margin:0;
     padding: 0;
     width: 15%;
     position: fixed;
@@ -44,6 +44,7 @@ P{
     display: flex;
     line-height: 1.6;
 }
+
 /***about page***/
 
 .container{
@@ -120,6 +121,7 @@ table, th {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
 /***Qualifications page***/
 .column-2a {
     float: left;
@@ -166,5 +168,63 @@ table, th {
 
 .social-image {
     height: 4rem;
+}
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    body {
+        margin:0px 0px 0px 0px;
+        background-image: url("12.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    ul{
+        list-style-type: none;
+        margin:0;
+        padding: 0;
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    li a {
+        font-size:medium;
+        text-align: center;
+    }
+    P{
+        font-size: 0.4cm;
+    }
+    .container .image {
+        width: 250px;
+        margin: 20px 0px 0px 0;
+        align-items: center;
+    }
+    table, th {
+        border: 1px solid black;
+        width:auto;
+        height:auto;
+        padding-left:0px;
+    }
+
+    .column-2a {
+        float:right;
+        width:auto;
+        height:auto;
+        
+    }
+    .projects{
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        background-size: 30cm;
+        padding-left: 0.5cm;
+        padding-right: 0.5cm;
+        padding-top: 0.5cm;
+        padding-bottom: 0.5cm;
+    }
+    .row{
+        margin:0px 20px 0px -50px;
+        align-items: center;
+    }
 }
 
